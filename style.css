@@ -1,0 +1,37 @@
+.greentext {
+    color:green; 
+    border-style: dashed;
+ }
+ 
+ #id123  {
+    color:blue;
+    font-size: large;
+}
+
+div.ramitis {
+    border-color:red; 
+    border-style: double;
+    width: 30%;
+ }
+
+ #specialramitis{
+    border-style: dashed;
+    border-color: cornflowerblue;
+    margin:20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+
+}
+
+ul li {
+    font-style: italic;
+
+
+}
+
+ol li {
+
+    text-decoration: underline;
+
+}
