@@ -6,16 +6,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mans pirmais html dokuments</title>
     <link href="style.css" rel="stylesheet">
-
-
 </head>
 <body>
  
-<h1>Virsraksts</h1>    
 
-<p>Ārā spīd saule</p>
+<!-- header -->
+<div class="cvramitis">
+    <table>
+<tr>
+    <td>
+            <img src="https://miro.medium.com/max/1000/1*ZhYNqU2y96_f3QkWq9oiWQ.jpeg" width="100" alt="Kaķis">
+    </td>
+    <td>
+<h1>Curriculum Vitae</h1>
+</td>
+</tr>
+</table>
+</div>
 
-<h3 class="greentext">Otrs virsraksts</h3>
+<!-- body -->
+<div class="ramitis">
+    <table>
+
+    <tr>
+    <td>
+    <h3>Par mani</h3>
+    <ul>
+        <li><strong>Vārds: </strong>Roberts</li>
+        <li><strong>Uzvārds: </strong>Skudrītis</li>
+        <li><strong>Tālrunis: </strong>21234567</li>
+        <li><strong>E-pasts: </strong>email@gmail.com</li>
+        <li><strong>Autovadītaja apliecība </strong>BE, C, D, [95]</li>
+        <li><a href="https://www.linkedin.com/in/roberts-skudritis-007366a6/" target="_blank">linkedin profils</a></li>
+    </ul>
+</td>
+
+
+<td>
+    <h3>Iegūtā izglītība</h3>
+    <ol>
+        <li>Viļņas Ģedimina Tehniskā Universitāte, MSc.ing</li>
+        <li>Rīgas Tehniskā Universitāte, MSc.env, BSc.ing</li>
+        <li>Rīgas Valsts Tehnikums, profesionālā vidējā izglītība</li>
+    </ol>
+</td> 
+</tr>    
+
+
+<tr>
+    <td>
+    <h3>Hobiji</h3>
+    <ul>
+        <li>Dārzkopība</li>
+        <li>Izbraucieni ar velosipēdu</li>
+        <li>Sev lietderīgas literatūras lasīšana</li>
+    </ul>
+</td>
+
+<td>
+    <h3>Apgūtie kursi </h3>
+    <ul>
+        <li>Fundamentals of Project Planning and Management (University of Virginia and offered through Coursera)</li>
+        <li>Information Systems Auditing, Controls and Assurance, The Hong Kong University of Science and Technology and offered through Coursera</li>
+        <li>Operētājsistēmas administrators, Rīgas Tehniskā Universitāte</li>
+    </ul>
+</td>
+</tr>
+
+
+</table>
+</div>
+
+<br>
+<br>
+
+<h3>Vispārīgi / atziņas</h3>
+<p class="greentext" id="greentext">
+    Vairāk vai mazāk puse dzīves pavadīta saistībā ar IT jomu. Sākot ar studijām tehnikumā, tālāk universitātē. <br><br>
+    Iespēju robežās klausos dažādus kursus, piemēram, <strong>Coursera</strong> vai kādus valsts piedāvātos. <br><br>
+    Darba nianses liek daudz apceļot Latviju un mazliet Baltiju. Pat izveidota darba karte ar pilsētam vai apdzīvotām vietām, kur strādāts. Nosacīti negatīvais - grūti atrast vietu kur doties atpūtā, jo viss šķiet jau redzēts. <br><br>
+    Gadiem ejot ar vien vairāk darbs ir attālināti, bet ļoti daudz sagatavošanās darbi notiek lokali un klienta apmeklējumu sekmē likumdošana (pamatā MK noteikumi). <br><br>
+    Labākās vietas darbam ir Liepājas reģions, Latgale un arī Igaunija (dēļ cilvēkiem un to attieksmes). <br><br>
+    Tirgū (IT) ir ļoti plaši praktizēts tā dēvētais "futbols". Pat līdz līmenim, ka citu kompāniju pārstavji pat ir devuši remote pieeju savām sistēmām tikai tāpēc, ka ir piektdiena vai sestdiena un negribas palīdzēt klientam. Viss, protams, atduras <strong>klienta</strong> finansēs.
+
+</p>
+
+
+<h2>JavaScript paraugs</h2>
+
+<p>JavaScript var mainīt teksta izmēru.</p>
+
+<button type="button" onclick="document.getElementById('greentext').style.fontSize='35px'">Palielināt tekstu!</button>
+<button type="button" onclick="document.getElementById('greentext').style.fontSize='15px'">Samazināt tekstu!</button>
+
+
+</body>
+
+<script>
+    document.getElementById("poga").onclick = function() {
+        var vecums = document.getElementById("vecums").value;
+        alert("Poga tika nospiesta");
+        document.getElementById("lietotajavecums").innerText = vecums;
+    };
+
+    </script>
+  
+</html>
+
+
+
+<!-- <h3 class="greentext">Otrs virsraksts</h3>
 <p class="greentext"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper commodo magna, ac semper mauris volutpat a. Suspendisse fermentum justo at aliquam ornare. Maecenas id cursus tellus. Maecenas in rhoncus massa. In porta velit ut tortor faucibus, quis pretium arcu ultricies. Phasellus <a href="https://en.wikipedia.org/wiki/Magnus_Maximus" target="_blank">maximus</a> semper ipsum. Vivamus ultrices et magna nec ultrices. Curabitur id neque lorem. Vivamus rhoncus nulla vitae libero ultrices dignissim. Suspendisse ac aliquam nisi. Integer at cursus neque. Nulla quis tempor lectus. Suspendisse id mauris ac nulla aliquam facilisis nec a augue. Etiam feugiat, lectus sit amet aliquet faucibus, sem tortor interdum ligula, at commodo tortor ipsum ut.</p>
 
 <br>
@@ -34,8 +134,8 @@
 
 <div id="specialramitis">
 
-<!--komentars-->
-<div class="ramitis">
+
+ <div class="ramitis">
 <h4>Pirkuma saraksts</h4>
 <ul>
     <li><a href="https://en.wikipedia.org/wiki/Potato" target="_blank">pirkums 1</a></li>
@@ -52,25 +152,12 @@
     <li>Servēt</li>
 </ol>
 </div>
-</div>
+</div> -->
 
-<input id="vecums">
+<!-- <input id="vecums">
 <br>
 <button id="poga">SPIED MANI!</button>
-<p>Lietotaja vecums ir: <strong id="lietotajavecums"></strong> </p>
+<p>Lietotaja vecums ir: <strong id="lietotajavecums"></strong> </p> -->
 
 
 
-</body>
-
-<script>
-    document.getElementById("poga").onclick = function() {
-        var vecums = document.getElementById("vecums").value;
-        alert("Poga tika nospiesta");
-        document.getElementById("lietotajavecums").innerText = vecums;
-    };
-    </script>
-    
-    
-
-</html>

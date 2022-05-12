@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mans pirmais html dokuments</title>
+    <link href="style.css" rel="stylesheet">
+
+
+</head>
+<body>
+ 
+<h1>Virsraksts</h1>    
+
+<p>Ārā spīd saule</p>
+
+<h3 class="greentext">Otrs virsraksts</h3>
+<p class="greentext"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper commodo magna, ac semper mauris volutpat a. Suspendisse fermentum justo at aliquam ornare. Maecenas id cursus tellus. Maecenas in rhoncus massa. In porta velit ut tortor faucibus, quis pretium arcu ultricies. Phasellus <a href="https://en.wikipedia.org/wiki/Magnus_Maximus" target="_blank">maximus</a> semper ipsum. Vivamus ultrices et magna nec ultrices. Curabitur id neque lorem. Vivamus rhoncus nulla vitae libero ultrices dignissim. Suspendisse ac aliquam nisi. Integer at cursus neque. Nulla quis tempor lectus. Suspendisse id mauris ac nulla aliquam facilisis nec a augue. Etiam feugiat, lectus sit amet aliquet faucibus, sem tortor interdum ligula, at commodo tortor ipsum ut.</p>
+
+<br>
+
+<h3>Trešais virsraksts</h3>
+<p id="id123">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper commodo magna, ac semper mauris volutpat a. Suspendisse fermentum justo at aliquam ornare. Maecenas id cursus <strong>Maecenas in rhoncus massa.</strong>  In porta velit ut tortor faucibus, quis pretium arcu ultricies. Phasellus maximus semper ipsum. Vivamus ultrices et magna nec ultrices. Curabitur id neque lorem. Vivamus rhoncus nulla vitae libero ultrices dignissim. Suspendisse ac aliquam nisi. Integer at cursus neque. Nulla quis tempor lectus. Suspendisse id mauris ac nulla aliquam facilisis nec a augue. Etiam feugiat, lectus sit amet aliquet faucibus, sem tortor interdum ligula, at commodo tortor ipsum ut.</p>
+
+<a href="https://www.ksenukai.lv/" target="_blank">ksenukai mājaslapa</a>
+<br>
+
+<h4>Bilde 1</h4>
+<img src="https://miro.medium.com/max/1000/1*ZhYNqU2y96_f3QkWq9oiWQ.jpeg" width="100" alt="Kaķis">
+
+<h4>Bilde 2</h4>
+<img src="E:\Kursi\LU automatizeta testesana\HTMLATP4\images\IT.jpg" width="100" alt="IT">
+
+<div id="specialramitis">
+
+<!--komentars-->
+<div class="ramitis">
+<h4>Pirkuma saraksts</h4>
+<ul>
+    <li><a href="https://en.wikipedia.org/wiki/Potato" target="_blank">pirkums 1</a></li>
+    <li>pirkums 2</li>
+    <li>pirkums 3</li>
+</ul>
+</div>
+
+<div class="ramitis">
+<h4>Receptes saraksts</h4>
+<ol>
+    <li>Samaisit</li>
+    <li>Cept</li>
+    <li>Servēt</li>
+</ol>
+</div>
+</div>
+
+<input id="vecums">
+<br>
+<button id="poga">SPIED MANI!</button>
+<p>Lietotaja vecums ir: <strong id="lietotajavecums"></strong> </p>
+
+
+
+</body>
+
+<script>
+    document.getElementById("poga").onclick = function() {
+        var vecums = document.getElementById("vecums").value;
+        alert("Poga tika nospiesta");
+        document.getElementById("lietotajavecums").innerText = vecums;
+    };
+    </script>
+    
+    
+
+</html>
