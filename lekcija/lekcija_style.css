@@ -3,26 +3,18 @@
     border-style: dashed;
  }
  
- /* #id123  {
+ #id123  {
     color:blue;
     font-size: large;
-} */
+}
 
 div.ramitis {
-    border-color: darkgreen; 
+    border-color:red; 
     border-style: double;
-    width: 100%;
-    height: 100%;
+    width: 30%;
  }
 
- div.cvramitis {
-    border-color: darkblue; 
-    border-style: dashed;
-    width: 100%;
-    height: 100%;
- }
-
- /* #specialramitis{
+ #specialramitis{
     border-style: dashed;
     border-color: cornflowerblue;
     margin:20px;
@@ -30,12 +22,16 @@ div.ramitis {
     display: grid;
     grid-template-columns: 20% 80%;
 
-} */
+}
 
-/* ul li {
+ul li {
     font-style: italic;
+
+
 }
 
 ol li {
+
     text-decoration: underline;
-} */
+
+}
